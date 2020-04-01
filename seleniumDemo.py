@@ -12,16 +12,17 @@ from selenium.webdriver.remote.webelement import WebElement
 from selenium.webdriver.common.action_chains import ActionChains
 from time import sleep
 
-email = "ducnmhe130913@fpt.edu.vn"
-password = "3metylbut1en"
+email = "your email"
+password = "your password"
 projectName = "DemoSelenium"
 description = "This repository is just for demo"
 def automation():
     #this is how a function declare
     #for example, I will open fpt site and coding to do it.
     driver.get('https://github.com/') #open browser
+    #there are a few method to select element in DOM using selenium: using xpath, class, id or querry all
     driver.find_element_by_xpath("/html/body/div[1]/header/div/div[2]/div[2]/a[1]").click() #click on Sign-in option
-    driver.find_element_by_xpath("//*[@id='login_field']").send_keys(email)
+    driver.find_element_by_xpath("//*[@id='login_field']").send_keys(email) //
     driver.find_element_by_xpath("//*[@id='password']").send_keys(password)
     driver.find_element_by_xpath("//*[@id='login']/form/div[4]/input[9]").click() #click on sign button
     driver.find_element_by_css_selector('body').send_keys(Keys.PAGE_DOWN) #press keydown to scroll down
