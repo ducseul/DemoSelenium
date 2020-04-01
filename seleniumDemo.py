@@ -12,8 +12,8 @@ from selenium.webdriver.remote.webelement import WebElement
 from selenium.webdriver.common.action_chains import ActionChains
 from time import sleep
 
-email = "ducnmhe130913@fpt.edu.vn"
-password = "3metylbut1en"
+email = "your email"
+password = "your pasword"
 projectName = "DemoSelenium"
 description = "This repository is just for demo"
 def automation():
