@@ -13,7 +13,8 @@ from selenium.webdriver.common.action_chains import ActionChains
 from time import sleep
 
 email = "your email"
-password = "your password"
+password = "your pasword"
+
 projectName = "DemoSelenium"
 description = "This repository is just for demo"
 def automation():
