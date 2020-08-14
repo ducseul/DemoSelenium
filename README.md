@@ -3,4 +3,4 @@ This repository is just for demo how to install, making environment for Selenium
 Library need for preInstall:
 - selenium 
 - webdriver_manager 
-Link guide: https://www.youtube.com/watch?v=xJGOHfM1iBY
+Link guide: https://youtu.be/zug6_7yOZOM
